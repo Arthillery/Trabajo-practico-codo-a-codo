@@ -1,0 +1,44 @@
+.imagen
+{
+
+        width: 10%;
+        height: 10%;
+        right: 50px;
+        top: 30px;
+
+}
+.grande
+{
+    border-color: red;
+    border: 10px solid blue;
+    height:20%;
+    width: 15%;
+
+}
+.chica
+{
+
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    margin: 0;
+    left: 0;
+    background-size: cover;
+
+
+}
+.pantalla
+{
+    height: 100%;
+    width: 100%;
+}
+.gif{
+    width: 100%;
+    height: 100%;
+ position: relative;
+ background-size: cover;
+ color: black;
+ 
+}

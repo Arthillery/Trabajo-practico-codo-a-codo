@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptoweb_tabla</title>
+    <link rel="stylesheet" href="textstyles.css">
+    <link rel="stylesheet" href="imgstyles.css">
+    <link rel="stylesheet" href="objectstyles.css">
+    <link rel="stylesheet" href="general.css">
+    <script src="back.js"></script>
+    </head>
+    <body>
+            <header>
+                <h1 class="titulo1 t">Consultas de precios               
+                      <nav>
+                    <ul>
+                        <li> <a href="preguntas.html" class="boton">Preguntas frecuentes</a></li>
+                            <li><a href="ref.html"class="boton">Registrarme</a></li>
+                </ul>
+                </nav></h1>
+
+            </header>
+
+
+        <main style="margin-top: 300px;">
+    </br>
+    <h2 class="parrafo1 t">
+        Ingrese criptomonedas del siguiente listado 
+        para obtener los resultados, tenga en cuenta que 
+        quizas no se pueda proveer informacion al respecto.
+    </h2>
+    <p class="cuadrotxt t" margin: 0;>BTC , DAI , ETH , USDT , USDC , BNB , AAVE , ADA , AXS , BAT , CAKE , DOGE , DOT , EOS , LINK , LTC , MANA , PAXG
+        , SAND , SHIB , SLP , SOL , TRX , UNI , XLM , XRP , 
+        AVAX , BCH , BUSD , CHZ , FTM , MATIC , ALGO , NUARS , DOC , USDP , UXD</p>
+    
+    <div class="container1">
+        <hr class="linea corte1">
+
+    <h1 class="titulo3">Cotizaciones de las diferentes criptomonedas expresadas en pesos a dolar blue: </h1>
+    <pre id="infoAPI" class="txtcripto"></pre></br>
+    <label for="coinInput" class="titulo2">Ingresa una criptodivisa de la lista </label>
+    <input type="text" id="coinInput" placeholder="Por ejemplo: BTC" class="boton1"  width="90%">
+    <button id="searchButton" class="boton accion" >Buscar criptomoneda</button>
+    <hr class="linea corte1">
+</div>  </br>
+    
+</br>
+<style>
+    
+    body
+    {
+        background: linear-gradient(225deg, rgb(92, 80, 80), pink);
+    }
+</style>
+</main>
+<h1 class="parrafo1">Puede dejar un comentario para que podamos mejorar nuestra plataforma</h1>
+<form id="validacion" onsubmit="return validarcomentario()">
+    <input size="40" type="text" id="none" name="Feedback" class="comentario"></br>
+    <hr class="linea corte1">
+    <input type="submit"  style="animation:none;"value="Enviar comentarios" class="boton accion"></br>
+</form>
+<footer>
+    <a href="https://www.binance.com/es" class="boton binance">Acceder a binance</a>
+    <a href="index.html" class="boton return">Volver a inicio</a>
+</footer>
+<div style="height: 10%;"></div>
+</body>
+</html>

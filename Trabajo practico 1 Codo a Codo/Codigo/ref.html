@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptoweb_contacto</title>
+    <link rel="stylesheet" href="textstyles.css">
+    <link rel="stylesheet" href="imgstyles.css">
+    <link rel="stylesheet" href="objectstyles.css">
+    <link rel="stylesheet" href="general.css">
+    <script src="back.js"></script>
+</head>
+<body>
+    <header class="header1">
+        <h1 class="titulo1 t">Registro         
+            <nav>
+            <ul>
+                <li> <a href="preguntas.html" class="boton">Preguntas frecuentes</a></li>
+                <li><a href="tabla.html"class="boton">Ver criptomonedas</a> </li>
+        </ul>
+        </nav></h1>
+
+    </header>
+    <main style="margin-top: 300px;">
+    <p class="parrafo1 t">Le solicitamos que ingrese los siguientes datos para validar su usuario y registrarlo en nuestra plataforma.</p>
+    <hr class="linea corte2">
+    <form id="validacion" onsubmit="return validarcampo()">
+        <label for="nombre" class="txtcampos t">Nombre:</label>
+        <input size="40" type="text" id="nombre" name="nombre"class="campo"></br>
+        <label for="apellido" class="txtcampos t">Apellido:</label>
+        <input size="40" type="text" id="apellido" name="apellido"class="campo"></br>
+        <label for="correo" class="txtcampos t">Correo:</label>
+        <input size="40" type="text" id="correo" name="correo"class="campo"></br>
+        <label for="edad" class="txtcampos t">Edad:</label>
+        <input type="number" id="edad" name="edad" class="campo"min="0"></br>
+        <hr class="linea corte1">
+        <hr class="linea corte1">
+
+        <div class="imagen chica" style="background-image: url(https://sideitsolutions.com/img/bg-banner1.jpg);">
+        <input type="submit"  value="Enviar" class="boton accion" ></br>
+    </form>
+    <div class="container3">
+    <p style="color: rgb(169, 215, 238);">Le agradecemos la informacion proporcionada y proximamente se encontrara registrado en Criptoweb.</p>
+</div>
+     <h1 class="parrafo1">Haga click en el panel de abajo para cambiar el color</h1>
+        <input  style="padding: 60px 40%;" class="boton links"  type="button" id="colorButton" value="" onclick="changeColor()">
+        <hr class="linea corte1">
+
+    <style>
+        body
+        {
+            background: linear-gradient(to bottom, pink, brown);
+           margin-bottom: 5%;
+        }
+    </style>
+    </main>
+
+    <footer>
+        <a href="https://www.binance.com/es" class="boton binance">Acceder a binance</a> 
+        <a href="index.html" class="boton return">Volver a inicio</a>
+    </footer>
+    <div style="height: 10%;"></div>
+</div>
+
+</body>
+
+</html>
